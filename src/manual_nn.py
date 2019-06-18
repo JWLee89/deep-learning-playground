@@ -1,10 +1,11 @@
 import numpy as np
 import tensorflow as tf
 
+# Using tensorflow for simply getting the mnist dataset.
+# So that we can skip the preprocessing phase since that is not
+# the main focus here.
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
-
-# Input data
 class NeuralNetwork(object):
 
     def __init__(self):
