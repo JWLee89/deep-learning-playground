@@ -1,11 +1,10 @@
 import numpy as np
 import tensorflow as tf
 
-# Using tensorflow for simply getting the mnist dataset.
-# So that we can skip the preprocessing phase since that is not
-# the main focus here.
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
+
+# Input data
 class NeuralNetwork(object):
 
     def __init__(self):
@@ -38,9 +37,35 @@ class NeuralNetwork(object):
         #     current = np.matmul(X, layer)
 
 
-
+    """
+        =================================
+        Activation functions right here
+        =================================
+    """
     def relu(self, input_data):
         return np.maximum(input_data, 0)
+
+    def softmax(self, input_data):
+        exponents = np.exp(input_data)
+        return exponents / sum(exponents, axis=0)
+
+
+
+    """
+        =================================
+        Cost functions
+        =================================
+    """
+    def cross_entropy_loss(self, y, y_pred):
+        """
+            Calculate the cross entropy loss
+            between the cost and the loss
+
+            :param y:
+            :param y_pred:
+            :return:
+        """
+        pass
 
 
     def fit(self, X, epoch_count=100):
@@ -56,11 +81,6 @@ class NeuralNetwork(object):
             # Calculate cost by subtracting the
             # output value with the actual cost
             y_pred = self.fit()
-
-    def softmax(self, input_data):
-        exponents = np.exp(input_data)
-        return exponents / sum(exponents, axis=0)
-
 
 
     def backpropagation(self, y, y_pred):
