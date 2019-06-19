@@ -2,7 +2,7 @@
 An experimental playground where I get my hands dirty in order to practice and grow my skills in deep learning from the ground up.
 
 
-## Work in progress.
+## Current Work in Progress
 
 Right now, I am current pre-occupied with my work as well as my masters degree. However, as part of my education, I am pushing myself to get well acquainted with deep learning techniques. I will try to write as much code as possible to become more familiar with key techniques, concepts and math.
 
