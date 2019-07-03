@@ -10,7 +10,7 @@ Right now, I am current pre-occupied with my work as well as my masters degree. 
 
 Below is the plan 
 
-- Build a feedbforward ANN with only numpy (including back-prop, derived cross-entropy, MSE). 
+- Build a feedforward ANN with only numpy (including back-prop, derived cross-entropy, MSE). 
 - Build the feedfoward ANN using tensorflow. 
 - Build a CNN using tensorflow. 
 - Build an RNN using tensorflow. 
