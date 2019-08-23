@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 
 """
     Author: Jay Lee
-    A simple GAN implementation
+    A simple GAN implementation based off Ian Goodfellow's paper:
+    Generative Adversarial Networks
 """
 
 def get_noise(batch_size, noise_size):
