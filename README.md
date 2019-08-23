@@ -18,3 +18,10 @@ Below is the plan
 - Build a GCN using tensorflow. 
 
 Afterwards, my challenge is also to do the following above using Pytorch. Anyway, that is the plan, but we will see. The order may vary depending on what I need to learn immediately in order to progress my research.
+
+
+### GAN 
+
+Below is a list of Generative Adversarial Networks that will be built along with a link to the assosciated paper. 
+
+- [Generative Adversarial Network][https://arxiv.org/abs/1406.2661] - [source code][https://github.com/JWLee89/deep-learning-playground/blob/master/src/GAN/gan_2014.py]
