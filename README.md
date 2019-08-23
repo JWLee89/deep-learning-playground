@@ -20,7 +20,7 @@ Below is the plan
 Afterwards, my challenge is also to do the following above using Pytorch. Anyway, that is the plan, but we will see. The order may vary depending on what I need to learn immediately in order to progress my research.
 
 
-### GAN 
+## GAN 
 
 Below is a list of Generative Adversarial Networks that will be built along with a link to the assosciated paper. 
 
