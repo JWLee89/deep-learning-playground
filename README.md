@@ -25,3 +25,4 @@ Afterwards, my challenge is also to do the following above using Pytorch. Anyway
 Below is a list of Generative Adversarial Networks that will be built along with a link to the assosciated paper. 
 
 - [Generative Adversarial Network](https://arxiv.org/abs/1406.2661) - [source code](https://github.com/JWLee89/deep-learning-playground/blob/master/src/GAN/gan_2014.py)
+- [DCGAN](https://arxiv.org/abs/1511.06434) - Work in progress
